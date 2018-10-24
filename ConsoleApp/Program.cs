@@ -8,6 +8,10 @@ namespace ConsoleApp
         {
             Console.WriteLine("Some number");
             func(Console.ReadLine());
+            for(int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(i++);
+            }
             Console.ReadKey();
 
             void func(string line)
